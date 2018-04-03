@@ -45,13 +45,13 @@
   export default {
     data: () => ({
       cards: [
-        { title: 'Check out Fresno State', src: '/static/img/videoArts/CheckoutFresnoState.webp', flex: 12, height: '400px' },
-        { title: 'The American English Institute of California State University, Fresno', src: '/static/img/videoArts/FSaei.jpg', flex: 6, height: '200px' },
-        { title: 'Fresno State Library', src: '/static/img/videoArts/FSLibrary.jpg', flex: 6, height: '200px' },
-        { title: 'Fresno State History', src: '/static/img/videoArts/FS1977.jpg', flex: 3, height: '200px' },
-        { title: 'Fresno State - SMC', src: '/static/img/videoArts/FSsmc.jpg', flex: 3, height: '200px' },
-        { title: 'Fresno State - USU', src: '/static/img/videoArts/FSusu.jpg', flex: 3, height: '200px' },
-        { title: 'Sports', src: '/static/img/videoArts/FSsports.jpg', flex: 3, height: '200px' }
+        { title: 'Check out Fresno State', src: 'static/img/videoArts/CheckoutFresnoState.webp', flex: 12, height: '400px' },
+        { title: 'The American English Institute of California State University, Fresno', src: 'static/img/videoArts/FSaei.jpg', flex: 6, height: '200px' },
+        { title: 'Fresno State Library', src: 'static/img/videoArts/FSLibrary.jpg', flex: 6, height: '200px' },
+        { title: 'Fresno State History', src: 'static/img/videoArts/FS1977.jpg', flex: 3, height: '200px' },
+        { title: 'Fresno State - SMC', src: 'static/img/videoArts/FSsmc.jpg', flex: 3, height: '200px' },
+        { title: 'Fresno State - USU', src: 'static/img/videoArts/FSusu.jpg', flex: 3, height: '200px' },
+        { title: 'Sports', src: 'static/img/videoArts/FSsports.jpg', flex: 3, height: '200px' }
       ]
     })
   }
