@@ -27,4 +27,8 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+--- 
+to update Github Pages
+npm run build; push-dir --dir=dist --branch=gh-pages --clean
+http://github.maxtsai.com/AIChatbot-VCP/index.html#/
+
