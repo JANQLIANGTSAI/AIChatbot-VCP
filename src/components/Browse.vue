@@ -22,8 +22,11 @@
             </v-card-media>
             <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn icon>
-                <v-icon>cast</v-icon>
+                <v-btn icon 
+                    :to="{name: 'TestBot'}"
+                    @click="hideMenu()"
+                >
+                    <v-icon>cast</v-icon>
                 </v-btn>
                 <v-btn icon>
                 <v-icon>bookmark</v-icon>
@@ -53,6 +56,12 @@
         { title: 'Fresno State - USU', src: 'static/img/videoArts/FSusu.jpg', flex: 3, height: '200px' },
         { title: 'Sports', src: 'static/img/videoArts/FSsports.jpg', flex: 3, height: '200px' }
       ]
-    })
+    }),
+    methods: {
+      hideMenu: function () {
+        var d = this.drawer
+        this.drawer = !d
+      }
+    }
   }
 </script>
